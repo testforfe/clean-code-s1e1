@@ -24,12 +24,36 @@
       <h3 class="todo-header">Todo</h3>
       <ul id="incompleted-tasks" class="todo todo-incompleted">
         <li class="todo-item">
-          
+          <input type="checkbox" class="todo-item__checkbox">
+          <label class="todo-item__task todo-item__label">Pay Bills</label>
+          <input type="text" class="todo-item__task todo-item__text">
+          <button class="button btn-edit">Edit</button>
+          <button class="button btn-delete">
+            <img src="./remove.svg" class="btn-delete__image" alt="delete">
+          </button>
         </li>
         <li class="todo-item_edit-mode todo-item">
-          
+          <input type="checkbox" class="todo-item__checkbox">
+          <label class="todo-item__task todo-item__label">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="todo-item__task todo-item__text">
+          <button class="button btn-edit">Save</button>
+          <button class="button btn-delete">
+            <img src="./remove.svg" class="btn-delete__image" alt="delete">
+          </button>
         </li>
-      </ul>                         
+      </ul>   
+      <h3>Completed</h3>
+      <ul id="completed-tasks" class="todo todo-completed">
+        <li class="todo-item">
+          <input type="checkbox" class="todo-item__checkbox" checked>
+          <label class="todo-item__task todo-item__label">See the Doctor</label>
+          <input type="text" class="todo-item__task todo-item__text">
+          <button class="button btn-edit">Edit</button>
+          <button class="button btn-delete">
+            <img src="./remove.svg" class="btn-delete__image" alt="">
+          </button>
+        </li>
+      </ul>
     </section>
   </main>  
 
