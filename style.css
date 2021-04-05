@@ -104,6 +104,18 @@ button{
   color: #333;
 }
 
+/* New Task */
+.add-item-title {
+  display: block;
+  margin: 0 0 20px;
+}
+.new-item__task {
+  width: 318px;
+}
+.btn-add:hover {
+  color: #0fc57c;
+}
+
 /* Task list */
 li {
     overflow: hidden;
