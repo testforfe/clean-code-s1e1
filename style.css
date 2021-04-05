@@ -117,38 +117,41 @@ button{
 }
 
 /* Task list */
-li {
-    overflow: hidden;
-    padding: 20px 0;
-    border-bottom: 1px solid #eee;
+.todo-item {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-li > * {
-    vertical-align: middle;
+.todo-item > * {
+  vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
-    margin: 0 10px;
+.todo-item__checkbox {
+  margin: 0 10px;
 }
-li > label {
-    padding-left: 10px;
-    box-sizing: border-box;
-    font-size: 18px;
-    width: 226px;
+.todo-item__task {
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 226px;
 }
-li >    input[type="text"] {
-    width: 226px
+.todo-item__text {
+  width: 226px;
 }
-button.delete img {
-    height: 2em;
-    transform: rotateZ(45deg);
-    transition: transform 200ms ease-in;
+.todo-item > .button.btn-delete:hover {
+  color: #cf2323;
 }
-button.delete img:hover {
-    transform: rotateZ(0);
+.btn-delete__image {
+  height: 2em;
+  transform: rotateZ(45deg);
+  transition: transform 200ms ease-in;
+}
+.btn-delete__image:hover {
+  transform: rotateZ(0);
 }
 
 /* Completed */
