@@ -109,12 +109,12 @@ var editTask=function(){
 
 //Delete task.
 var deleteTask=function(){
-    console.log("Delete Task...");
+  console.log("Delete Task...");
 
-    var listItem=this.parentNode;
-    var ul=listItem.parentNode;
-    //Remove the parent list item from the ul.
-    ul.removeChild(listItem);
+  var listItem=this.parentNode;
+  var ul=listItem.parentNode;
+  //Remove the parent list item from the ul.
+  ul.removeChild(listItem);
 
 }
 
