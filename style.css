@@ -155,9 +155,10 @@ button{
 }
 
 /* Completed */
-ul#completed-tasks label {
-    text-decoration: line-through
-    color: #888;
+.todo-completed,
+.todo-item__label {
+  text-decoration: line-through;
+  color: #888;
 }
 
 /* Edit Task */
